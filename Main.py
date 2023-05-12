@@ -9,3 +9,7 @@ def sub(a, b):
 def mult(a, b):
     answer = a * b
     print(str(a) + " * " + str(b) + " = " + str(answer))
+
+def div(a, b):
+    answer = a / b
+    print(str(a) + " / " + str(b) + " = " + str(answer))
