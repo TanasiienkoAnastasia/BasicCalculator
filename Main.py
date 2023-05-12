@@ -5,3 +5,7 @@ def add(a, b):
 def sub(a, b):
     answer = a - b
     print(str(a) + " - " + str(b) + " = " + str(answer))
+
+def mult(a, b):
+    answer = a * b
+    print(str(a) + " * " + str(b) + " = " + str(answer))
