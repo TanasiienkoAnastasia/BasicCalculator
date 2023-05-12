@@ -39,3 +39,9 @@ if choice == "c" or choice == "C":
     a = int(input("input first number: "))
     b = int(input("input second number: "))
     mult(a, b)
+
+if choice == "d" or choice == "D":
+    print("Division")
+    a = int(input("input first number: "))
+    b = int(input("input second number: "))
+    div(a, b)
