@@ -33,3 +33,9 @@ if choice == "b" or choice == "B":
     a = int(input("input first number: "))
     b = int(input("input second number: "))
     sub(a, b)
+
+if choice == "c" or choice == "C":
+    print("Multiplication")
+    a = int(input("input first number: "))
+    b = int(input("input second number: "))
+    mult(a, b)
