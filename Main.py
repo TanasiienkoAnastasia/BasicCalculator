@@ -27,21 +27,21 @@ if choice == "a" or choice == "A":
     a = int(input("input first number: "))
     b = int(input("input second number: "))
     add(a, b)
-
-if choice == "b" or choice == "B":
+elif choice == "b" or choice == "B":
     print("Substraction")
     a = int(input("input first number: "))
     b = int(input("input second number: "))
     sub(a, b)
-
-if choice == "c" or choice == "C":
+elif choice == "c" or choice == "C":
     print("Multiplication")
     a = int(input("input first number: "))
     b = int(input("input second number: "))
     mult(a, b)
-
-if choice == "d" or choice == "D":
+elif choice == "d" or choice == "D":
     print("Division")
     a = int(input("input first number: "))
     b = int(input("input second number: "))
     div(a, b)
+elif choice == "e" or choice == "E":
+    print("Program ended")
+    quit()
