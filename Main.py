@@ -25,5 +25,11 @@ choice = input("input your choice: ")
 if choice == "a" or choice == "A":
     print("Addition")
     a = int(input("input first number: "))
-    d = int(input("input second number: "))
+    b = int(input("input second number: "))
     add(a, b)
+
+if choice == "b" or choice == "B":
+    print("Substraction")
+    a = int(input("input first number: "))
+    b = int(input("input second number: "))
+    sub(a, b)
